@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background: rgb(10, 8, 8);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+.site-header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.hero-section {
+    background: #b89cd5;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    margin-right: 5%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text p.hashtag {
+    font-size: 20px;
+}
+
+.content-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.video-thumbnails {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.video-thumbnails img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.video-thumbnails img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.section-title {
+    color: rgb(42, 122, 228);
+}
